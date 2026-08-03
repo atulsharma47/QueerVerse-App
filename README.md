@@ -2,18 +2,17 @@
 
 <div align="center">
 
-# 🌌 QueerVerse
-### A Modern LGBTQ+ Social Platform Built with Flutter & Firebase
+### A Modern LGBTQ+ Social Networking Platform
 
-*A safe, inclusive, and community-driven social networking platform designed for meaningful connections, friendships, networking, and self-expression.*
+**Connect • Express • Discover • Build Meaningful Communities**
+
+Flutter • Firebase • Material Design • Cross Platform
 
 ---
 
-![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart)
-![Firebase](https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web-blueviolet?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Development-success?style=for-the-badge)
+🎥 **Project Demo**
+
+https://drive.google.com/file/d/1mS2VeoBcCsV1lUklKod_9WJTlf9hAk-o/view?usp=sharing
 
 </div>
 
@@ -21,34 +20,31 @@
 
 # 📖 About
 
-QueerVerse is a modern social networking application created specifically for the LGBTQ+ community.
+QueerVerse is a modern social networking application built specifically for the LGBTQ+ community. The platform focuses on creating a safe, welcoming, and engaging digital space where users can express themselves, build friendships, discover communities, attend events, and interact through social features.
 
-The goal of QueerVerse is to provide a safe, welcoming, and visually engaging platform where people can connect, build friendships, network, share experiences, discover events, and express themselves freely.
+The application is built using Flutter with Firebase as the backend, allowing the same codebase to support Android, iOS, Web, Windows, macOS, and Linux.
 
-The application combines a premium glassmorphism-inspired UI with real-time Firebase services to deliver a smooth and interactive social media experience.
-
-Although the project is still under active development, many core social networking features have already been implemented.
+Although the project is still under active development, it already includes a large collection of production-style features with a polished dark-themed UI.
 
 ---
 
-# ✨ Current Features
+# ✨ Features
 
 ## 🔐 Authentication
 
-- Secure Email Authentication
-- User Registration
-- Login
-- Password Validation
-- Authentication State Handling
-- Remember Me
-- Beautiful Dark UI
 - Firebase Authentication
+- Email & Password Login
+- User Registration
+- Form Validation
+- Secure Authentication
+- Loading States
+- Error Handling
 
 ---
 
-## 👤 User Profile
+## 👤 User Profiles
 
-Every user has their own customizable profile including:
+Each user has a personalized profile including:
 
 - Profile Picture
 - Display Name
@@ -58,69 +54,67 @@ Every user has their own customizable profile including:
 - Orientation
 - Country
 - Looking For
-- Online Status
 - Verification Badge
 - Followers
 - Following
-- Edit Profile
+
+Users can update and customize their profile anytime.
 
 ---
 
 ## 🏠 Home Feed
 
-A modern social feed supporting:
+A modern social media feed where users can:
 
-- Community Posts
-- Stories
-- Personalized Feed
+- Create Posts
+- View Posts
 - Like Posts
 - Comment
-- Share
 - Save Posts
-- Real-time Updates
-- Following Feed
-- Nearby Feed
-- Trending Feed
-- Friends Feed
-
----
-
-## 🔍 User Discovery
-
-Search and discover users with advanced filters.
-
-Features include:
-
-- User Search
-- Online Filter
-- Verified Users
-- Gender Filter
-- Orientation Filter
-- Looking For Filter
-- Grid/List Layout
-- Recently Active Sorting
+- Share Posts
+- View Stories
+- Personalized Feed
 
 ---
 
 ## ❤️ Social Features
 
+Users can:
+
 - Like Posts
-- Comment System
+- Comment on Posts
 - Save Posts
 - Share Posts
 - Follow Users
 - Unfollow Users
-- Real-time Counters
+
+All interactions are synchronized using Firebase.
 
 ---
 
-## 🙈 Anonymous Posts
+## 🔍 User Search
 
-Users can:
+Search users using multiple filters including:
 
-- Create Anonymous Posts
-- View Anonymous Posts
-- Interact Without Revealing Identity
+- Name
+- Online Status
+- Verified Users
+- Gender
+- Orientation
+- Looking For
+
+---
+
+## 📅 Events
+
+Community events include:
+
+- Create Events
+- Browse Events
+- Join Events
+- Leave Events
+- Event Details
+- Event Celebration Animation
 
 ---
 
@@ -130,92 +124,94 @@ Real-time notifications for:
 
 - Likes
 - Comments
-- Followers
-- Event Activity
+- New Followers
+- Event Activities
 - Social Interactions
 
 ---
 
-## 🎉 Events Module
+## 🖼 Media Support
 
-Users can:
-
-- Create Events
-- Browse Events
-- Join Events
-- Leave Events
-- View Event Details
-
-Each event supports:
-
-- Title
-- Description
-- Date
-- Time
-- Location
-
----
-
-## 🖼️ Media Support
+Users can upload
 
 - Profile Pictures
-- Cover Images
-- Image Upload
-- Cached Images
+- Cover Photos
+- Post Images
 
 ---
 
 ## 🎨 Modern UI
 
-Designed using a premium interface featuring:
+Designed using
 
-- Glassmorphism
-- Gradient Buttons
 - Dark Theme
-- Neon Purple & Pink Palette
+- Glassmorphism
+- Purple & Pink Gradient Palette
+- Responsive Layouts
 - Smooth Animations
-- Responsive Layout
 - Modern Typography
-- Rounded Cards
+- Reusable Components
 
 ---
 
-## ⚡ Animations
+## ⚡ Performance
 
-- Fade Animations
-- Scale Animations
-- Hero Transitions
-- Loading Effects
-- Gradient Animations
-- Shimmer Loading
-- Celebration Animations
+- Firebase Backend
+- Real-time Firestore
+- Cached Images
+- Optimized Widgets
+- Responsive UI
 
 ---
 
-## ☁️ Firebase Integration
+# 📸 Screenshots
 
-Integrated services include:
+<h2 align="center">Application Preview</h2>
 
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
+<table align="center">
 
-Current collections include:
+<tr>
+<td align="center">
+<b>Login</b><br><br>
+<img src="screenshots/login.png" width="240">
+</td>
 
-- Users
-- Posts
-- Anonymous Posts
-- Events
-- Notifications
+<td align="center">
+<b>Create Account</b><br><br>
+<img src="screenshots/register.png" width="240">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Home Feed</b><br><br>
+<img src="screenshots/home.png" width="240">
+</td>
+
+<td align="center">
+<b>Search Users</b><br><br>
+<img src="screenshots/search.png" width="240">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<b>User Profile</b><br><br>
+<img src="screenshots/profile.png" width="240">
+</td>
+</tr>
+
+</table>
 
 ---
 
-# 🛠 Tech Stack
+# 🛠 Technology Stack
 
 ## Frontend
 
 - Flutter
 - Dart
+- Material Design
 
 ## Backend
 
@@ -229,74 +225,46 @@ Current collections include:
 
 ## Packages
 
-- provider
 - firebase_core
 - firebase_auth
 - cloud_firestore
 - firebase_storage
-- google_fonts
 - cached_network_image
 - image_picker
+- google_fonts
 - flutter_animate
 - shimmer
+- lottie
 - share_plus
 - http
+- url_launcher
 - intl
 - flutter_svg
-- video_player
-- audioplayers
 
 ---
 
-# 📸 Screenshots
+# 📂 Project Structure
 
-## 🔐 Login
+```
+lib/
+│
+├── models/
+├── providers/
+├── screens/
+├── services/
+├── widgets/
+├── utils/
+├── constants/
+└── main.dart
 
-Modern dark themed authentication interface.
-
-![Login](screenshots/login.png)
-
----
-
-## 📝 Create Account
-
-Simple and intuitive user registration.
-
-![Register](screenshots/register.png)
-
----
-
-## 🏠 Home Feed
-
-Personalized community feed with stories, posts, and social interactions.
-
-![Home](screenshots/home.png)
-
----
-
-## 🔍 Search Users
-
-Search users with multiple discovery filters.
-
-![Search](screenshots/search.png)
-
----
-
-## 👤 Profile
-
-Fully customizable user profile.
-
-![Profile](screenshots/profile.png)
-
----
-
-# 🎥 Demo Video
-
-Watch the current project demonstration here:
-
-**Demo Video**
-
-https://drive.google.com/file/d/1mS2VeoBcCsV1lUklKod_9WJTlf9hAk-o/view?usp=sharing
+assets/
+android/
+ios/
+web/
+windows/
+linux/
+macos/
+```
 
 ---
 
@@ -308,37 +276,21 @@ https://drive.google.com/file/d/1mS2VeoBcCsV1lUklKod_9WJTlf9hAk-o/view?usp=shari
 git clone https://github.com/atulsharma47/QueerVerse-App.git
 ```
 
+---
+
+## Navigate
+
 ```bash
 cd QueerVerse-App
 ```
 
 ---
 
-## Install Dependencies
+## Install Packages
 
 ```bash
 flutter pub get
 ```
-
----
-
-## Configure Firebase
-
-This repository intentionally excludes production Firebase configuration files.
-
-Create and configure your own Firebase project, then add:
-
-```
-android/app/google-services.json
-```
-
-and regenerate:
-
-```
-lib/firebase_options.dart
-```
-
-using FlutterFire CLI.
 
 ---
 
@@ -348,89 +300,73 @@ using FlutterFire CLI.
 flutter run
 ```
 
-Run on Chrome:
+For Web
 
 ```bash
 flutter run -d chrome
 ```
 
-Run on Android:
+---
 
-```bash
-flutter run -d android
-```
+# 📌 Current Status
+
+The project is currently under active development.
+
+Implemented:
+
+- Authentication
+- Home Feed
+- User Profiles
+- Search
+- Notifications
+- Events
+- Firebase Integration
+- Responsive UI
+- Dark Theme
+- Social Features
 
 ---
 
-# 📂 Project Structure
+# 🚧 Upcoming Features
 
-```
-lib/
- ├── screens/
- ├── widgets/
- ├── models/
- ├── services/
- ├── providers/
- ├── utils/
- ├── animations/
- ├── theme/
- └── main.dart
+Planned additions include:
 
-assets/
- ├── images/
- ├── icons/
- └── fonts/
-
-screenshots/
-
-android/
-
-ios/
-
-web/
-```
-
----
-
-# 🚧 Roadmap
-
-Planned features include:
-
-- Direct Messaging
+- Real-time Chat
 - Voice & Video Calling
-- Groups & Communities
-- Friend Requests
-- AI Match Recommendations
-- Event Maps
+- Communities
+- Groups
+- Advanced Matching
+- Reels
+- Stories
+- AI Recommendations
 - Push Notifications
-- Stories Improvements
-- Reels / Short Videos
+- Admin Dashboard
 - Premium Membership
-- Dark/Light Themes
-- Better Accessibility
-- Play Store Release
-- iOS Release
-- Windows & macOS Support
+- End-to-End Encryption
+- Google Sign-In
+- Apple Sign-In
 
 ---
 
-# 🤝 Contributing
+# 🌍 Platform Support
 
-Contributions, suggestions, and feedback are always welcome.
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
+| Platform | Status |
+|----------|--------|
+| Android | ✅ |
+| iOS | 🚧 |
+| Web | ✅ |
+| Windows | 🚧 |
+| macOS | 🚧 |
+| Linux | 🚧 |
 
 ---
 
-# 📌 Project Status
+# 🎯 Project Goals
 
-> **This project is currently under active development.**
-
-Core social networking functionality has been implemented, and additional features, optimizations, and platform support are being added continuously.
+- Build an inclusive LGBTQ+ community platform.
+- Provide a safe space for meaningful interactions.
+- Deliver a modern, responsive, and scalable Flutter application.
+- Demonstrate production-ready Flutter development practices.
 
 ---
 
@@ -438,14 +374,26 @@ Core social networking functionality has been implemented, and additional featur
 
 **Atul Sharma**
 
-GitHub: https://github.com/atulsharma47
+Computer Science Engineer
+
+Flutter Developer
+
+GitHub
+
+https://github.com/atulsharma47
 
 ---
 
 # ⭐ Support
 
-If you found this project interesting, consider giving it a ⭐ on GitHub. It helps support future development and motivates continued improvements.
+If you found this project interesting, consider giving it a ⭐ on GitHub.
+
+Feedback and contributions are always welcome.
 
 ---
 
-### Made with ❤️ using Flutter & Firebase
+<div align="center">
+
+Made with ❤️ using Flutter & Firebase
+
+</div>
